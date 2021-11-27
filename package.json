@@ -23,11 +23,12 @@
   "dependencies": {
     "shelljs": "^0.7.8"
   },
+  "type":"module",
   "bin": {
-    "webfly": "bin/index.js",
-    "webfly init": "bin/init.js",
-    "webfly install": "bin/install.js",
-    "webfly start": "bin/start.js",
-    "webfly stop": "bin/stop.js"
+    "webfly": "node bin/index.js",
+    "webfly init": "node bin/init.js",
+    "webfly install": "node bin/install.js",
+    "webfly start": "node bin/start.js",
+    "webfly stop": "node bin/stop.js"
   }
 }
